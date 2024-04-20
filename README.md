@@ -3,13 +3,11 @@
 This repo contains the code, data, and scripts for the paper "Unveiling Densest Multilayer Subgraphs via Greedy Peeling".
 ## Datasets
 
-----
 
 The `Datasets/` folder presents the ML graphs used in the experiments (Table 3). For large graphs DBLP-large and StackOverflow, both the data source and the script to transform the original data to ML graphs are included.
 
 ## Code
 
-----
 
 ### Compilation
 
@@ -55,8 +53,6 @@ cmake .. -DMPFR=On
 - `ns`: Get the degree vectors of vertices in the induced ML subgraph.
 
 ## Reproduce the Experiments
-
-----
 
 We provide Python scripts in the `scripts/` folder for rerunning the experiments and reproducing the figures/tables in the paper. The output of these scripts will be saved in the `output/` folder. Additionally, we also include in the folder the experimental results obtained by running the code compiled with GCC 9.4.0 and utilizing -O3 optimization on a server equipped with an Intel Xeon Gold 5218R processor and 754GB of RAM.
 ##### Effectiveness tests
